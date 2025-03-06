@@ -1,0 +1,71 @@
+body{
+    font-family:"Matemasie",sans-serif;
+    background-color: #d7c7aa;
+  color: #926f4f;
+  font-size: 16px;
+    <nav>
+    a:link {
+        color: #8b1010;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+     a:hover {
+        text-decoration: underline;
+        background-color: #000;
+        color:#fff;
+    }
+    a:visited{
+        color:#00602b;
+        background-color: #fff;
+    }
+    height:35px;
+}
+header{
+    background-color: #00602b; /* Green for Italian vibe */
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: #ffffff;
+}
+h1{
+    background-color: #00602b;
+    color:#ffffff
+}
+h2{
+    color: #342517;
+    background-color: #ffffff
+}
+h3{
+    color: #342517;
+    background-color: #ffffff
+}
+h4{
+    color: #342517;
+    background-color: #ffffff
+}
+h5{
+    background-color: #ee1e28;
+    color:#ffffff
+}
+p{
+    color: #230e06;
+    background-color: #ffffff
+}
+highlight{
+    font-weight: bold;
+color: #ee1e28;
+font-style: italic;
+}
+special-item
+footer{
+    text-align: center;
+  color: white;
+  background-color: #bb161d;
+}
+span{color: red;
+}
+<main>
+font-weight: bold;
+background-image: url(background.webp);
+background-repeat: repeat-x;
