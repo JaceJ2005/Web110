@@ -1,0 +1,94 @@
+/*Jace Jackson CSS sheet */
+
+/*Change everything --reset styles*/
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6; /*line spacing */
+    color: #cbd8e3db;
+    background: linear-gradient(0deg, #AA11EA,
+#374BCE);
+    margin: 0 auto; /*margin-left:auto; margin-right:auto;*/
+    padding: 0;
+    font-size: 16px; /* Base font size set to 16px, which equals 1rem */
+    background-color; #f0f8ff;
+}
+header {
+    background: #2c3e50;
+    background: linear-gradient
+    color: white;
+    text-align: center; 
+    padding: 4rem 2rem: 
+    margin-bottom: 3rem; /* Margin in rem */
+    border-bottom: 0.5 re solid #1e4532; /* Border size in rem */
+}
+
+nav {
+    background-color: #34495e;
+    margin: 0 2rem 2rem 2rem; /* Margin in rem  top right bottom left*/
+    padding: 1.5rem; /* Padding in rem on all sides*/
+    border: 0.2 rem solid #d04e17; /* Border in rem */
+}
+nav ul {
+    list-style-type: none; 
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+/* builds the link */
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    color: #d9e8d8;
+    text-decoration: underline;
+}
+
+main {
+max-width: 90%;
+margin: 0 auto;
+padding: 2rem;
+}
+
+section{
+    background-color: #7f818a;
+    margin-bottom: 3rem;
+    padding: 2 rem;
+    border: 8px solid #378d31;
+    border-radius: 8px;
+}
+
+section h2{
+    color: #180e51;
+margin-bottom: 1.5rem;
+font-size: 2.5rem;
+}
+img{
+    max-width: 50%;
+    height: auto; /*makes the image responsive to grow and shrink */
+    border-radius:20%; /*this rounds the images */
+    box-shadow:10px 14px #126212;
+}
+
+footer {
+    background-color: #2c3e50;
+    text-align: center;
+    padding: 1.5rem 0rem; /* Padding in rem */
+    margin-top: 3rem; /* Margin in rem */
+}
+
+Image style {
+    width: 30%;
+height: auto;
+border-radius: 8px;
+margin-bottom: 1.5rem;
+}
+
