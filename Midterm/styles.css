@@ -1,0 +1,24 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.2; /*line spacing */
+    color: white;
+    background-color: red;
+}
+header {
+    color: black;
+    background-color: Blue;
+    text-align: center; 
+    padding: 0.5rem 0.5rem;
+    margin-bottom: 0.5rem; /* Margin in rem */
+    border-bottom: 0.5 re solid #1e4532; /* Border size in rem */
+}
+
+h1 {
+    background-color: blue;
+}
+nav {
+    color:black;
+    background-color: red;
+    margin: 0 1rem 1rem 1rem; /* Margin in rem  top right bottom left*/
+    border: 0.2 rem solid #d04e17; /* Border in rem */
+}
