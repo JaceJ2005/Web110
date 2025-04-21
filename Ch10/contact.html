@@ -1,1 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header section with company logo and title -->
+        <header>
+            <h1>Johnson County Community College</h1>
+            <!-- Replace with your logo image -->
+            <img src="jccc.png" alt="Company Logo">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Please fill out the form below.</p>
+        </header>
 
+        <!-- Main content area with the contact form -->
+        <main>
+            <form action="https://webdevbasics.net/scripts/demo.php" method="POST">
+                <!-- First Name Input Field -->
+                <div class="form-group">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="FirstName" required>
+                </div>
+
+                <!-- Last Name Input Field -->
+                <div class="form-group">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="LastName" required>
+                </div>
+
+                <!-- Email Input Field -->
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <!-- Phone Number Input Field (Optional) -->
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <!-- Textarea for 'Learn More' Section -->
+                <div class="form-group">
+                    <label for="learnMore">What would you like to know more about</label>
+                    <textarea id="learnMore" name="LearnMore"></textarea>
+                </div>
+
+                <!-- Radio Buttons for Contact Preference -->
+                <div class="form-group">
+                    <label>How do you want us to contact you?</label>
+                    <div class="contact-options">
+                        <!-- Email Contact Option -->
+                        <input type="radio" id="contactEmail" name="ContactPreference" value="email">
+                        <label for="contactEmail">Email</label>
+
+                        <!-- Phone Contact Option -->
+                        <input type="radio" id="contactPhone" name="ContactPreference" value="phone">
+                        <label for="contactPhone">Phone</label>
+
+                        <!-- No Preference Option -->
+                        <input type="radio" id="noPreference" name="ContactPreference" value="no_preference">
+                        <label for="noPreference">No Preference</label>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Johnson County Community College. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
