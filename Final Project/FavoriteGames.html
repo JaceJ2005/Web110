@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!--Jace Jackson, April 28 2025-->
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <body>
+        <nav>
+            <a href="NintendoSwitch.html"> Home Page</a>
+            <a href="PopularGames.html">Popular Games </a>
+            <a href="Switch2.html"> Nintendo Switch 2</a>
+            <a href="SwitchVSOtherConsoles.html"> Switch Sales</a>
+            <a href="credits.html"> Credits</a>
+            
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>What's your favorite Switch game?</title>
+            </head>
+                <div class="container">
+                    <!-- Header section with Switch logo and page title -->
+                    <header>
+                        <h1>Favorite Switch Game</h1>
+                        <img src="SwitchLogo.png" alt="Nintendo Switch Logo">
+                    </header>
+
+                    <h2><p>Please fill out the form below.</p>
+                    </h2>
+            
+                    <!-- Main content area with the contact form -->
+                    <main>
+                        <form action="https://webdevbasics.net/scripts/demo.php" method="POST">
+                            <!-- First Name Input Field -->
+                            <div class="form-group">
+                                <label for="firstName">First Name:</label>
+                                <input type="text" id="firstName" name="FirstName" required>
+                            </div>
+            
+                            <!-- Last Name Input Field -->
+                            <div class="form-group">
+                                <label for="lastName">Last Name:</label>
+                                <input type="text" id="lastName" name="LastName" required>
+                            </div>
+            
+                            <!-- Email Input Field -->
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <!-- People can choose which genres of games they play-->
+                            Choose which genres of games you play: <br>
+                            <input type="checkbox" name="Platforming" id="Platforming"
+                            value="yes"> Platforming<br>
+
+                            <input type="checkbox" name="Adventure" id="Adventure"
+                            value="yes"> Adventure<br>
+
+                            <input type="checkbox" name="Fighting" id="Fighting"
+                            value="yes"> Fighting<br>
+
+                            <input type="checkbox" name="Building" id="Building"
+                            value="yes"> Building<br>
+
+                            <input type="checkbox" name="Racing" id="Racing"
+                            value="yes"> Racing<br>
+
+                            <input type="checkbox" name="Horror" id="Horror"
+                            value="yes"> Horror<br>
+
+                            <input type="checkbox" name="Shooting" id="Shootingr"
+                            value="yes"> Shooting<br>
+
+                            <input type="checkbox" name="Battle Royale" id="Battle Royale"
+                            value="yes"> Battle Royale<br>
+
+                            <input type="checkbox" name="Survival" id="Survival"
+                            value="yes"> Survival<br>
+
+                            <input type="checkbox" name="Role-Playing Games" id="Role-Playing Games"
+                            value="yes"> Role Playing Games<br>
+
+                            <input type="checkbox" name="Simulation" id="Life Simulation"
+                            value="yes"> Simulation<br>
+
+                            <input type="checkbox" name="Party" id="Party"
+                            value="yes"> Party<br>
+
+                            <input type="checkbox" name="Strategy" id="Strategy"
+                            value="yes"> Strategy<br>
+                            
+                            <!-- People can type what their favorite Switch game is-->
+                            <div class="form-group">
+                                <label for="favoriteGame">What is your favorite Nintendo Switch game?</label>
+                                <textarea id="favoriteGame" name="FavoriteGame"></textarea>
+                            </div>
+                            
+                            <!-- People can insert their date of birth-->
+                            <label for="birthday">Birthday</label>
+                            <input type="date" id="birthday" name="birthday">
+            
+                            <!-- Radio Buttons for Contact Preference -->
+                            <div class="form-group">
+                                <label>How do you want us to contact you?</label>
+                                <div class="contact-options">
+                                    <!-- Email Contact Option -->
+                                    <input type="radio" id="contactEmail" name="ContactPreference" value="email">
+                                    <label for="contactEmail">Email</label>
+            
+                                    <!-- Phone Contact Option -->
+                                    <input type="radio" id="contactPhone" name="ContactPreference" value="phone">
+                                    <label for="contactPhone">Phone</label>
+            
+                                    <!-- No Preference Option -->
+                                    <input type="radio" id="noPreference" name="ContactPreference" value="no_preference">
+                                    <label for="noPreference">No Preference</label>
+                                </div>
+                            </div>
+                            
+                            <!-- Reset Button-->
+                            <div class="form-group">
+                                <button type="reset">Reset</button>
+            
+                            <!-- Submit Button -->
+                            <div class="form-group">
+                                <button type="submit">Submit</button>
+                            </div>
+                        </form>
+                    </main>
+        
+                </div>
+            </body>
+            </html>
